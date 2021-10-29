@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity; //EF
-using WindowsFormsApp1.Models;
+using Datos.Models;
 
-namespace WindowsFormsApp1.Data
+namespace Datos.Data
 {
     public class DbClinicaContext: DbContext
     {
@@ -18,8 +18,8 @@ namespace WindowsFormsApp1.Data
 
         public DbSet<Paciente> pacientes { get; set; }
         public DbSet<Medico> medicos { get; set; }
-        public DbSet<Clinica> clinicas { get; set; }
-        public DbSet<Habitacion> habitaciones { get; set; }
+        //public DbSet<Clinica> clinicas { get; set; }
+        //public DbSet<Habitacion> habitaciones { get; set; }
 
     }
 }

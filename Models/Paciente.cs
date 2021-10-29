@@ -5,8 +5,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WindowsFormsApp1.Models;
 
-namespace WindowsFormsApp1.Models
+namespace Datos.Models
 {
     [Table("Paciente")]// EF cuando crea la tabla la llama Paciente en signular sino por convension pluraliza el nombre "Pacientes"
     public class Paciente

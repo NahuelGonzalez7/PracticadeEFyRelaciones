@@ -18,10 +18,10 @@ namespace WindowsFormsApp1.Models
 
         //Propiedad de Navegacion
 
-        public List<Paciente> Pacientes { get; set; }
+        //public List<Paciente> Pacientes { get; set; }
 
-        [ForeignKey("IdEspecialidad")]
-        public Especialidad especialidad { get; set; }
+        //[ForeignKey("IdEspecialidad")]
+        //public Especialidad especialidad { get; set; }
 
     }
 }
