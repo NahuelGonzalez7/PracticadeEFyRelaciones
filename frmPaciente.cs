@@ -29,15 +29,15 @@ namespace WindowsFormsApp1
             gridPacientes.DataSource = AdmPaciente.Listar();
         }
 
-        private void btnInsertar_Click(object sender, EventArgs e)
-        {
-            Paciente paciente = new Paciente() { Nombre = "Ana", Apellido = "Fernandez", FechaNacimiento = new DateTime(1980, 12, 20), NroHistoriaClinica = 22, MedicoID = 1 };
+        //private void btnInsertar_Click(object sender, EventArgs e)
+        //{
+        //    Paciente paciente = new Paciente() { Nombre = "Ana", Apellido = "Fernandez", FechaNacimiento = new DateTime(1980, 12, 20), NroHistoriaClinica = 22, MedicoID = 1 };
 
-            int filasAfectadas = AdmPaciente.Insertar(paciente);
-            if (filasAfectadas > 0)
-            {
-                gridPacientes.DataSource = AdmPaciente.Listar();
-            }
-        }
+        //    int filasAfectadas = AdmPaciente.Insertar(paciente);
+        //    if (filasAfectadas > 0)
+        //    {
+        //        gridPacientes.DataSource = AdmPaciente.Listar();
+        //    }
+        //}
     }
 }

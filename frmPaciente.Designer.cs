@@ -50,7 +50,7 @@ namespace WindowsFormsApp1
             this.btnInsertar.TabIndex = 1;
             this.btnInsertar.Text = "Insertar Paciente";
             this.btnInsertar.UseVisualStyleBackColor = true;
-            this.btnInsertar.Click += new System.EventHandler(this.btnInsertar_Click);
+            //this.btnInsertar.Click += new System.EventHandler(this.btnInsertar_Click);
             // 
             // frmPaciente
             // 
